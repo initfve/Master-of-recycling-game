@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    background-color:#afd451 !important;
+}
+.container{
+    background-color:#afd451;
+}
+.panel{
+    background-color: #ffffff;
+    padding: 4vw 4vw 2vw;
+    border-radius: 0.5vw;
+    display: inline-block;
+    text-align: center;
+}
+@media (min-width: 992px){
+    .col-lg-2{
+        -ms-flex: 0 0 20% !important;
+        flex: 0 0 20%!important;
+        max-width: 20%!important;
+    }
+}
+
+.can{
+    float: left;
+    display: inline;
+}
+.can h6{
+    margin-top: 0.5vw;
+}
+.cans{
+    display: inline-block;
+}
+.can p{
+    margin-top: 1vh;
+}
+.img-can{
+    width: 100% !important;
+}
+.desc-can{
+    text-align: center;
+}
