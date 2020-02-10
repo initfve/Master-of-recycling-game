@@ -1,9 +1,11 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Hello, world!</title>
@@ -15,29 +17,29 @@
             <h1>M<i class="fas fa-recycle"></i>ster of recycling</h1>
             <br>
             <div class="panel">
-                <h3>Gdzie wyrzucisz....?</h3>
-                <br>
-                <h4>Fusy po kawie</h4>
+                {% block content %}
+
+                {% endblock %}
                 <br>
                 <div class="cans col-lg-10 col-md-10 col-sm-10 col-10">
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6 can" id="glass" onclick="can(this);">
-                        <img class="img-can" src="../static/img/szklo.png">
+                        <img class="img-can" src="{% static 'img/szklo.png' %}">
                         <h6 class="desc-can">Szkło</h6>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6 can" id="plastic" onclick="can(this);">
-                        <img class="img-can" src="../static/img/plastik.png">
+                        <img class="img-can" src="{% static 'img/plastik.png'%}">
                         <h6 class="desc-can">Metale i tworzywa sztuczne</h6>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6 can" id="mixed" onclick="can(this);">
-                        <img class="img-can" src="../static/img/zmieszane.png">
+                        <img class="img-can" src="{% static 'img/zmieszane.png' %}">
                         <h6 class="desc-can">Odpady zmieszane</h6>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6 can" id="paper" onclick="can(this);">
-                        <img class="img-can" src="../static/img/papier.png">
+                        <img class="img-can" src="{% static 'img/papier.png' %}">
                         <h6 class="desc-can">Papier</h6>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6 can" id="bio" onclick="can(this);">
-                        <img class="img-can" src="../static/img/bio.png">
+                        <img class="img-can" src="{% static 'img/bio.png' %}">
                         <h6 class="desc-can">BIO</h6>
                     </div>
                 </div>
