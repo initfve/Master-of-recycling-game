@@ -1,4 +1,4 @@
-#!C:\Users\Kuba\PycharmProjects\Master_of_recycling\venv\Scripts\python.exe
+#!C:\Users\Kuba\Documents\Master-of-recycling-game\venv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Kuba\PycharmProjects\Master_of_recycling\venv"
+$env:VIRTUAL_ENV="C:\Users\Kuba\Documents\Master-of-recycling-game\venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

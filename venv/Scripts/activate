@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Kuba\PycharmProjects\Master_of_recycling\venv"
+VIRTUAL_ENV="C:\Users\Kuba\Documents\Master-of-recycling-game\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
