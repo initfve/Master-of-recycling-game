@@ -19,12 +19,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>url</find>
-      <find>templ</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,6 +96,7 @@
       <workItem from="1581447918576" duration="934000" />
       <workItem from="1581449179879" duration="324000" />
       <workItem from="1581449775323" duration="2838000" />
+      <workItem from="1581534615148" duration="10559000" />
     </task>
     <servers />
   </component>

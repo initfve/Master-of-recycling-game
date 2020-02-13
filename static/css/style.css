@@ -3,7 +3,7 @@ html, body{
     background-color:#afd451 !important;
 }
 .container{
-    background-color:#afd451;
+    background-color: rgb(175, 212, 81);
 }
 .panel{
     background-color: #ffffff;
@@ -23,6 +23,13 @@ html, body{
 .can{
     float: left;
     display: inline;
+    cursor: pointer;
+    padding: 1vw;
+
+}
+.can:hover{
+    background-color: rgba(175, 212, 81, 0.3);
+    border-radius: 10vw;
 }
 .can h6{
     margin-top: 0.5vw;

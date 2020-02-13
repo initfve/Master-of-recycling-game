@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.quiz, name="quiz-view"),
+    path('check', views.check_answer, name="check-view"),
 ]
